@@ -1,2 +1,8 @@
 # zlib-decompressor
 A command line zlib-decompressor tool written in c
+
+* Note: Requires zlib library to be installed
+# Compiling and Usage
+```
+gcc zlib-decompressor.c -lz -o zlib-decompressor && ./zlib-decompressor FILE1 FILE2 FILE3 FILE4
+```
